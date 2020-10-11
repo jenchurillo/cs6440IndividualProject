@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ihiFhirAssignment:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ihiFhirAssignment_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ihiFhirAssignment/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ihiFhirAssignment" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-base:3.1.0" />
+          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-client:3.1.0" />
+          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-structures-dstu3:3.1.0" />
+          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-utilities:3.1.0" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.1" />
+          <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.5" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.6" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.3" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.6" />
+          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.25" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-simple:1.7.24" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
