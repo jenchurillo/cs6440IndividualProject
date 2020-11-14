@@ -40,8 +40,10 @@ public class MiniProject3Test extends TestCase {
         MiniProject3 reader = new MiniProject3(serverBase);
 
         //reader.getOsteoarthritisBundle();
-        reader.getPatientData("1899027");
-        reader.getCarePlan("1899027", "1899030");
+        //reader.getCondition("1899027");
+        reader.getCarePlan("1899027","1899030");
+        //reader.getConditionId("1899027");
+
 
 
         //do something with the reader to make sure it works...
@@ -56,4 +58,22 @@ public class MiniProject3Test extends TestCase {
 //            System.out.println(id);
 //        }
     }
+
+//    public void testPatientList(){
+//       String serverBase = "http://hapi.fhir.org/baseDstu3";
+//       patientList reader = new patientList(serverBase);
+//       reader.getPatientBundle();
+//    }
+
+//    public void testCheckLogin(){
+//        String serverBase = "http://hapi.fhir.org/baseDstu3";
+//        checkLogin reader = new checkLogin();
+//        reader.isValidUserLogin("HeLLO1899027", "1899027");
+//
+//    }
+
+
+
+
+
 }

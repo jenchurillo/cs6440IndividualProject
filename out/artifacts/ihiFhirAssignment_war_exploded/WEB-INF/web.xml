@@ -12,9 +12,322 @@
 
     <servlet-mapping>
         <servlet-name>carePlan</servlet-name>
-        <url-pattern>/portal</url-pattern>
+        <url-pattern>/carePlan</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>knee</servlet-name>
+        <servlet-class>assignment.knee</servlet-class>
+    </servlet>
 
+    <servlet-mapping>
+        <servlet-name>knee</servlet-name>
+        <url-pattern>/knee</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>hamstringStretch</servlet-name>
+        <servlet-class>assignment.hamstringStretch</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>hamstringStretch</servlet-name>
+        <url-pattern>/hamstringStretch</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>wrist</servlet-name>
+        <servlet-class>assignment.wrist</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>wrist</servlet-name>
+        <url-pattern>/wrist</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>rheumatoid</servlet-name>
+        <servlet-class>assignment.rheumatoid</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>rheumatoid</servlet-name>
+        <url-pattern>/rheumatoid</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>progress</servlet-name>
+        <servlet-class>assignment.progress</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>progress</servlet-name>
+        <url-pattern>/progress</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>calfStretch</servlet-name>
+        <servlet-class>assignment.calfStretch</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>calfStretch</servlet-name>
+        <url-pattern>/calfStretch</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>heelRaise</servlet-name>
+        <servlet-class>assignment.heelRaise</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>heelRaise</servlet-name>
+        <url-pattern>/heelRaise</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>oneLegBalance</servlet-name>
+        <servlet-class>assignment.oneLegBalance</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>oneLegBalance</servlet-name>
+        <url-pattern>/oneLegBalance</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>pillowSqueeze</servlet-name>
+        <servlet-class>assignment.pillowSqueeze</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>pillowSqueeze</servlet-name>
+        <url-pattern>/pillowSqueeze</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>quadSet</servlet-name>
+        <servlet-class>assignment.quadSet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>quadSet</servlet-name>
+        <url-pattern>/quadSet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>seatedHipMarch</servlet-name>
+        <servlet-class>assignment.seatedHipMarch</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>seatedHipMarch</servlet-name>
+        <url-pattern>/seatedHipMarch</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>sideLegRaise</servlet-name>
+        <servlet-class>assignment.sideLegRaise</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>sideLegRaise</servlet-name>
+        <url-pattern>/sideLegRaise</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>sitToStand</servlet-name>
+        <servlet-class>assignment.sitToStand</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>sitToStand</servlet-name>
+        <url-pattern>/sitToStand</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>straightLegRaise</servlet-name>
+        <servlet-class>assignment.straightLegRaise</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>straightLegRaise</servlet-name>
+        <url-pattern>/straightLegRaise</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>food</servlet-name>
+        <servlet-class>assignment.food</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>food</servlet-name>
+        <url-pattern>/food</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>stretching</servlet-name>
+        <servlet-class>assignment.stretching</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>stretching</servlet-name>
+        <url-pattern>/stretching</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>walking</servlet-name>
+        <servlet-class>assignment.walking</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>walking</servlet-name>
+        <url-pattern>/walking</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>swimming</servlet-name>
+        <servlet-class>assignment.swimming</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>swimming</servlet-name>
+        <url-pattern>/swimming</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>cycling</servlet-name>
+        <servlet-class>assignment.cycling</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>cycling</servlet-name>
+        <url-pattern>/cycling</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>flowing</servlet-name>
+        <servlet-class>assignment.flowing</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>flowing</servlet-name>
+        <url-pattern>/flowing</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>pilates</servlet-name>
+        <servlet-class>assignment.pilates</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>pilates</servlet-name>
+        <url-pattern>/pilates</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>strength</servlet-name>
+        <servlet-class>assignment.strength</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>strength</servlet-name>
+        <url-pattern>/strength</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>flexion</servlet-name>
+        <servlet-class>assignment.flexion</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>flexion</servlet-name>
+        <url-pattern>/flexion</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>flips</servlet-name>
+        <servlet-class>assignment.flips</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>flips</servlet-name>
+        <url-pattern>/flips</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deviation</servlet-name>
+        <servlet-class>assignment.deviation</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>deviation</servlet-name>
+        <url-pattern>/deviation</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>extensor</servlet-name>
+        <servlet-class>assignment.extensor</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>extensor</servlet-name>
+        <url-pattern>/extensor</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>flexor</servlet-name>
+        <servlet-class>assignment.flexor</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>flexor</servlet-name>
+        <url-pattern>/flexor</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>intrinsicFlexion</servlet-name>
+        <servlet-class>assignment.intrinsicFlexion</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>intrinsicFlexion</servlet-name>
+        <url-pattern>/intrinsicFlexion</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>extension</servlet-name>
+        <servlet-class>assignment.extension</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>extension</servlet-name>
+        <url-pattern>/extension</url-pattern>
+    </servlet-mapping>
 
 </web-app>
